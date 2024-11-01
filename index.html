@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air Quality Master Check</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header>
+            <h1>AIR QUALITY MASTER CHECK(Sukphoon)</h1>
+            <p>ระบบตรวจสอบคุณภาพอากาศแบบสมบูรณ์</p>
+        </header>
+
+        <!-- Tabs Navigation -->
+        <nav class="tabs">
+            <button class="tab-link active" onclick="openTab(event, 'Project')">PROJECT</button>
+            <button class="tab-link" onclick="openTab(event, 'About')">ABOUT</button>
+            <button class="tab-link" onclick="openTab(event, 'Equipment')">EQUIPMENT</button>
+            <button class="tab-link" onclick="openTab(event, 'Video')">VIDEO DEMO</button>
+            <button class="tab-link" onclick="openTab(event, 'Poster')">POSTER</button>
+            <button class="tab-link" onclick="openTab(event, 'Member')">MEMBER</button>
+        </nav>
+
+        <!-- Tab Content -->
+        <div id="Project" class="tab-content" style="display: block;">
+            <h2>Project Arduino</h2>
+            <p>การตรวจสอบคุณภาพอากาศอัจฉริยะ</p>
+            <img src="images/proj.png" alt="Project Image">
+            <p class="image-caption">ภาพรวมของโปรเจกต์ Arduino สำหรับตรวจสอบคุณภาพอากาศ</p>
+            <br>
+            <a class="tab-link github-link" href="https://github.com/66070271/Suckphoon.git" target="_blank">
+                <img src="images/git.png" alt="GitHub Icon" class="icon"> GITHUB
+            </a>
+        </div>
+
+        <div id="About" class="tab-content">
+            <h2>About the Project</h2>
+            <p>ข้อมูลเกี่ยวกับโครงการตรวจสอบคุณภาพอากาศ...</p>
+            <img src="images/firetest.png" alt="About Image">
+            <p>Project ของเราได้มีการทดลองการใช้งานจริงโดยใช้เขม่าไฟจากธูปเพื่อให้เห็นว่าการวัดค่าฝุ่นนั้นเป็นตามความจริงและเกิดErrorไม่มากนัก</p>
+            <img src="images/LCDtest.png" alt="About Image">
+            <p>เราได้มีการนำ LCD มาแสดงผลค่าฝุ่นออกมาแบบ Realtimeโดยรับค่ามาจาก Sensor โดยตรง</p>
+            <img src="images/mqtt.png" alt="About Image">
+            <p>Project ของเราจะมีการส่งค่าผ่านตัว Sever MQTT</p>
+            <img src="images/webtest.png" alt="About Image">
+            <p>จากนั้นเราจะนำข้อมูลที่เราดึงจาก Topic ใน Sever ที่เราได้รับค่านั้นมาประมวลผลและแสดงผล</p>
+        </div>
+
+        <div id="Equipment" class="tab-content">
+            <h2>Equipment</h2>
+            <div class="equipment-gallery">
+                <div>
+                    <img src="images/arduino.png" alt="Equipment 1">
+                    <p class="image-caption">Arduino R4 WIFI</p>
+                </div>
+                <div>
+                    <img src="images/dust.png" alt="Equipment 2">
+                    <p class="image-caption">GP2Y1014AU0F dust sensor</p>
+                </div>
+                <div>
+                    <img src="images/resistor.png" alt="Equipment 3">
+                    <p class="image-caption">150 ohm resistor</p>
+                </div>
+                <div>
+                    <img src="images/capacity.png" alt="Equipment 1">
+                    <p class="image-caption">220uF capacitor</p>
+                </div>
+                <div>
+                    <img src="images/lcd.png" alt="Equipment 1">
+                    <p class="image-caption">LCD IC2</p>
+                </div>
+                <div>
+                    <img src="images/wire.png" alt="Equipment 1">
+                    <p class="image-caption">Wire</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="Video" class="tab-content">
+            <h2>Video Demo</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/xOWQqx0On7Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div id="Poster" class="tab-content">
+            <h2>Project Poster</h2>
+            <img src="images/poster.png" alt="Project Poster">
+            <p class="image-caption">โปสเตอร์แสดงรายละเอียดโครงการ</p>
+        </div>
+
+        <div id="Member" class="tab-content">
+            <h2>Team Members</h2>
+            <div class="member-gallery">
+                <div>
+                    <img src="images/pleum.png" alt="Member 1">
+                    <p>66070263</p>
+                    <p class="image-caption">ธนกฤต สุทธิพงษ์</p>
+                </div>
+                <div>
+                    <img src="images/mart.jpg" alt="Member 2">
+                    <p>66070271</p>
+                    <p class="image-caption">ธิติพัทธ์ สนประเสริฐกุล</p>
+                </div>
+                <div>
+                    <img src="images/bank.jpg" alt="Member 3">
+                    <p>66070280</p>
+                    <p class="image-caption">นัฐพล หวังสวัสดิ์</p>
+                </div>
+                <div>
+                    <img src="images/pat.jpg" alt="Member 3">
+                    <p>66070281</p>
+                    <p class="image-caption">นันทิพัฒน์ สิทธิสุทธิ์</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openTab(event, tabName) {
+            const contents = document.getElementsByClassName("tab-content");
+            for (let content of contents) {
+                content.style.display = "none";
+            }
+            document.getElementById(tabName).style.display = "block";
+
+            const links = document.getElementsByClassName("tab-link");
+            for (let link of links) {
+                link.classList.remove("active");
+            }
+            event.currentTarget.classList.add("active");
+        }
+    </script>
+</body>
+</html>

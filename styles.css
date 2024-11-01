@@ -1,0 +1,145 @@
+/* styles.css */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    padding: 30px;
+    background-color: #1e1e1e;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Header Styling */
+header {
+    margin-bottom: 25px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #4fa7ff;
+    margin-bottom: 10px;
+}
+
+/* Tabs Navigation */
+.tabs {
+    display: flex;
+    flex-wrap: wrap; /* Allow tabs to wrap if needed */
+    justify-content: center; /* Center the tabs horizontally */
+}
+
+.tab-link {
+    padding: 10px 15px; /* Adjust padding for better size */
+    margin: 5px; /* Margin between buttons */
+    background-color: #333; /* Background color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor on hover */
+    transition: background-color 0.3s; /* Transition effect */
+    display: flex; /* Allow icon and text to align */
+    align-items: center; /* Center items vertically */
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.tab-link.active {
+    background-color: #4fa7ff;
+    color: #ffffff;
+}
+
+.tab-link:hover {
+    background-color: #555;
+}
+
+/* Tab Content */
+.tab-content {
+    display: none;
+    padding: 20px;
+}
+
+.tab-content img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* Image Caption Styling */
+.image-caption {
+    font-size: 1em;
+    color: #a0a0a0;
+    margin-top: 5px;
+}
+
+/* Equipment and Member Gallery */
+.equipment-gallery, .member-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.equipment-gallery div, .member-gallery div {
+    width: 150px;
+    text-align: center;
+    background-color: #333;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.member-gallery p {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #aaa;
+}
+
+iframe {
+    width: 100%;
+    height: 500px;
+    border-radius: 8px;
+    border: none;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .tab-link {
+        font-size: 0.9em;
+    }
+    iframe {
+        height: 250px;
+    }
+}
+/* styles.css */
+
+/* ...existing styles... */
+
+.github-link {
+    padding: 5px 400px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.github-link .icon {
+    width: 50px; /* ขนาดของไอคอน */
+    height: 50px; /* ขนาดของไอคอน */
+    margin-right: 5px; /* ระยะห่างระหว่างไอคอนและข้อความ */
+}
+
+/* ...existing styles... */
