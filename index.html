@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>271Restaurant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <p>271Restaurant</p>
+    </div>
+    <nav>
+        <div class="container">
+            <div class="nav-con">
+                <div class="logo">
+                    <img id="logo-pic" src="./image/restaurant.png">
+                </div>
+                <ul class="menu">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#maincourse-section">MAIN COURSES</a></li>
+                    <li><a href="#drink-section">DRINKS</a></li>
+                    <li><a href="#dessert-section">DESSERTS</a></li>
+                    <li><a href="#ref-section">REFERENCES</a></li>
+                </ul>
+                <div class="logo cart-icon-container">
+                    <img class = "fa fa-shopping-cart" onclick="cart()" id="cart-pic" src="./image/cart.png">
+                    <span id="cart-count" class="cart-count-badge">0</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container1">
+        <div class="res-img">
+            <p class="welcome-text" style="font-size: 100px;color:white">Welcome to 271 restaurant</p>
+        </div>
+        <div class="intro-con">
+            <div class="intro-text">
+                <p style="font-size: 20px;">"Welcome to 271Restaurant, where the essence of fine dining meets unparalleled artistry. Our carefully curated menu combines the finest ingredients, masterful techniques, and a passion for creating exceptional culinary experiences.
+
+                    Indulge in succulent premium steaks, savor the freshness of hand-selected seafood, and explore a world of flavors with our exquisite international and fusion dishes. Each plate is a masterpiece, paired perfectly with our extensive collection of fine wines and handcrafted cocktails.
+                    
+                    Our elegant ambiance is designed to captivate your senses, offering a perfect blend of luxury, comfort, and sophistication. Whether celebrating a special occasion, hosting a business dinner, or enjoying an intimate meal, we ensure every moment is extraordinary.
+                    
+                    Join us at 271Restaurant, and let us redefine your expectations of fine dining with unparalleled taste, impeccable service, and an unforgettable atmosphere."</p>
+            </div>
+                <div class="contact-con">
+                    <img id="ig-img" onclick="contact('ig-img')" class="contact-img" src="./image/instagram.png">
+                    <img id="face-img" onclick="contact('face-img')" class="contact-img" src="./image/facebook.png">
+                    <img id="phone-img" onclick="contact('phone-img')" class="contact-img" src="./image/phone-call.png">
+                </div>
+                <p id="contact-des">"Click on the above icon to see our contact"</p>
+        </div>  
+    </div>
+    <div id="maincourse-section" class="ref-con">
+        <p>MAIN COURSES</p>
+    </div>
+    
+    <div class="allmenu-con" id="maincourse-con">
+    </div>
+
+    <div id="drink-section">
+        <p style="font-size: 100px;color:white" >DRINKS</p>
+    </div>
+    <div class="allmenu-con" id="drinks-con">
+
+    </div>
+    <div id="dessert-section">
+        <p id="desserts" style="font-size: 100px; color: white;">DESSERTS</p>
+    </div>
+    <div class="allmenu-con" id="desserts-con">
+
+    </div>
+    <div id="ref-section" class="ref-con">
+        <p>REFERENCES</p>
+    </div>
+    <div class="ref-body-con">
+        <div id="ref-body-id" class="ref-pic-con">
+            <h2>MENU PICTURES REFERENCES</h2>
+        </div>
+        <div class="ref-other">
+            <div class="ref-box">
+                <img id="flat-icon" src="./image/flat-icon.png">
+                <div class="flat-des">
+                    <h2>LOGO REF</h2>
+                    <p>This website is for download the icon.</p>
+                    <p>Every Icon on this website are from Flaticon.</p>
+                    <a href="https://www.flaticon.com/">Link to Flaticon</a>
+                </div>
+            </div>
+            <div class="ref-box">
+                <img id="flat-icon" src="./image/chat.jpg">
+                <div class="flat-des">
+                    <h2>ChatGPT</h2>
+                    <p>Use for generate list of menu</p>
+                    <p>and help me about some advance javascript</p>
+                    <a href="https://chatgpt.com/">Link to ChatGPT</a>
+                </div>
+            </div>
+            <div class="ref-box">
+                <img id="flat-icon" src="./image/youtube.png">
+                <div class="flat-des">
+                    <h2>Youtube</h2>
+                    <p>I use this channel to learn about many layout and CSS</p>
+                    <p>such as flex,grid</p>
+                    <a href="https://www.youtube.com/@PatiphanPhengpao">Link to @PatiphanPhengpao</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <div class="popup-container" id="popup">
+        <div class="popup-content">
+            <div style="display: flex;justify-content: center;margin-bottom:20px;font-size: 25px;">
+                <img onclick="cart()" id="cart-pic" src="./image/cart.png">
+                <p>YOUR CART</p>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width:70%">MENU</th>
+                        <th style="width:30%" >PRICE</th>
+                        
+                    </tr>    
+                </thead>
+                <tbody id="tablebody">
+                    
+                </tbody>
+            </table>
+            <p id="totalPrice">Total = 0 Baht</p>
+        <div class="but-con">
+          <button onclick="closepop()" id="purchasePopup">PURCHASE</button>
+          <button onclick="closepop()" id="closePopup">CLOSE</button>
+          <button onclick="clearcart()" id="clearPopup">CLEAR</button>
+        </div>
+        </div>
+      </div>
+    <script src="script.js"></script>
+</body>
+    
+</html>

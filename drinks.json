@@ -1,0 +1,110 @@
+[
+    {
+        "name": "Tropical Sunrise",
+        "description": "Fresh orange juice, mango, and pomegranate with a hint of mint.",
+        "image": "./image/drinks/tropical_sunrise.jpg",
+        "price": "150"
+    },
+    {
+        "name": "Berry Bliss",
+        "description": "Raspberry, blueberry, cranberry juice, and soda.",
+        "image": "./image/drinks/berry_bliss.jpg",
+        "price": "180"
+    },
+    {
+        "name": "Cucumber Cooler",
+        "description": "Cucumber, lime juice, and fresh mint.",
+        "image": "./image/drinks/cucumber_cooler.webp",
+        "price": "140"
+    },
+    {
+        "name": "Signature Martini",
+        "description": "Premium vodka with a twist of lemon peel.",
+        "image": "./image/drinks/signature_martini.webp",
+        "price": "400"
+    },
+    {
+        "name": "Elderflower Spritz",
+        "description": "White wine with elderflower syrup and soda.",
+        "image": "./image/drinks/elderflower_spritz.webp",
+        "price": "380"
+    },
+    {
+        "name": "Matcha Latte",
+        "description": "High-quality matcha green tea with steamed milk.",
+        "image": "./image/drinks/matcha_latte.webp",
+        "price": "200"
+    },
+    {
+        "name": "Passionfruit Mojito",
+        "description": "Refreshing mojito infused with passionfruit and fresh mint.",
+        "image": "./image/drinks/passionfruit_mojito.webp",
+        "price": "250"
+    },
+    {
+        "name": "Classic Iced Tea",
+        "description": "Brewed black tea served over ice with a hint of lemon.",
+        "image": "./image/drinks/classic_iced_tea.jpg",
+        "price": "120"
+    },
+    {
+        "name": "Cappuccino",
+        "description": "Freshly brewed espresso topped with steamed milk foam.",
+        "image": "./image/drinks/cappuccino.jpeg",
+        "price": "150"
+    },
+    {
+        "name": "Cold Brew Coffee",
+        "description": "Slow-brewed coffee served over ice for a smooth taste.",
+        "image": "./image/drinks/cold_brew.jpg",
+        "price": "170"
+    },
+    {
+        "name": "Sparkling Lemonade",
+        "description": "Zesty lemonade with a touch of sparkling water.",
+        "image": "./image/drinks/sparkling_lemonade.webp",
+        "price": "130"
+    },
+    {
+        "name": "Virgin Piña Colada",
+        "description": "Pineapple and coconut mocktail topped with whipped cream.",
+        "image": "./image/drinks/virgin_pina_colada.webp",
+        "price": "200"
+    },
+    {
+        "name": "Mango Lassi",
+        "description": "Traditional Indian yogurt-based drink with mango.",
+        "image": "./image/drinks/mango_lassi.jpg",
+        "price": "150"
+    },
+    {
+        "name": "Peach Bellini",
+        "description": "Prosecco with fresh peach puree.",
+        "image": "./image/drinks/peach_bellini.jpg",
+        "price": "300"
+    },
+    {
+        "name": "Blueberry Mojito",
+        "description": "Classic mojito with fresh blueberries.",
+        "image": "./image/drinks/blueberry_mojito.jpg",
+        "price": "280"
+    },
+    {
+        "name": "Chai Latte",
+        "description": "Spiced tea with steamed milk.",
+        "image": "./image/drinks/chai_latte.jpg",
+        "price": "180"
+    },
+    {
+        "name": "Red Wine Sangria",
+        "description": "Red wine mixed with fruits and brandy.",
+        "image": "./image/drinks/red_wine_sangria.jpg",
+        "price": "350"
+    },
+    {
+        "name": "Iced Matcha Latte",
+        "description": "Iced matcha with milk and a hint of sweetness.",
+        "image": "./image/drinks/iced_matcha_latte.jpg",
+        "price": "200"
+    }
+]

@@ -1,0 +1,146 @@
+[
+    {
+        "name": "Wagyu Ribeye Steak",
+        "description": "Premium Wagyu ribeye served with red wine sauce and mashed potatoes.",
+        "image": "./image/maincourse/ribeye.png",
+        "price": "3200"
+    },
+    {
+        "name": "Grilled Lamb Chops",
+        "description": "Tender lamb chops with rosemary sauce and roasted potatoes.",
+        "image": "./image/maincourse/grilllamb.jpg",
+        "price": "2600"
+    },
+    {
+        "name": "Seafood Paella",
+        "description": "Spanish-style rice dish with mussels, shrimp, and calamari.",
+        "image": "./image/maincourse/seafoodpaella.jpg",
+        "price": "1800"
+    },
+    {
+        "name": "Lobster Truffle Pasta",
+        "description": "Fresh pasta with lobster and creamy truffle sauce.",
+        "image": "./image/maincourse/lobstertrufflepasta.jpg",
+        "price": "2200"
+    },
+    {
+        "name": "Thai Green Curry with Lobster",
+        "description": "Thai green curry with fresh lobster, served with jasmine rice.",
+        "image": "./image/maincourse/greencurrylobster.jpg",
+        "price": "2000"
+    },
+    {
+        "name": "Miso Black Cod",
+        "description": "Miso-marinated black cod served with grilled vegetables.",
+        "image": "./image/maincourse/misoblackcod.jpg",
+        "price": "2500"
+    },
+    {
+        "name": "Surf & Turf",
+        "description": "Premium steak paired with grilled tiger prawns, served with butter lemon sauce.",
+        "image": "./image/maincourse/surfturf.jpg",
+        "price": "3400"
+    },
+    {
+        "name": "Herb-Crusted Salmon",
+        "description": "Salmon fillet crusted with fresh herbs, served with asparagus and lemon butter sauce.",
+        "image": "./image/maincourse/herbcrushsalmon.jpg",
+        "price": "1900"
+    },
+    {
+        "name": "Beef Bourguignon",
+        "description": "Classic French beef stew braised in red wine with mushrooms and carrots.",
+        "image": "./image/maincourse/beefbour.jpg",
+        "price": "2100"
+    },
+    {
+        "name": "Duck Confit",
+        "description": "Slow-cooked duck leg served with roasted potatoes and a balsamic glaze.",
+        "image": "./image/maincourse/duckconfit.jpg",
+        "price": "2300"
+    },
+    {
+        "name": "Vegetarian Lasagna",
+        "description": "Layers of fresh pasta with spinach, ricotta, and marinara sauce.",
+        "image": "./image/maincourse/vetlasanya.jpg",
+        "price": "1600"
+    },
+    {
+        "name": "Chicken Parmigiana",
+        "description": "Crispy chicken topped with marinara sauce and melted mozzarella, served with pasta.",
+        "image": "./image/maincourse/chickenparmi.jpg",
+        "price": "1800"
+    },
+    {
+      "name": "Pan-Seared Tuna",
+      "description": "Fresh tuna steak seared to perfection, served with a soy sesame glaze.",
+      "image": "./image/maincourse/pantuna.jpg",
+      "price": "2100"
+    },
+    {
+      "name": "Steak Frites",
+      "description": "Juicy steak served with crispy fries and béarnaise sauce.",
+      "image": "./image/maincourse/steakfrite.jpg",
+      "price": "2500"
+    },
+    {
+      "name": "Grilled Octopus",
+      "description": "Char-grilled octopus served with citrus and herb dressing.",
+      "image": "./image/maincourse/grilloctopus.png",
+      "price": "2400"
+    },
+    {
+      "name": "Stuffed Chicken Breast",
+      "description": "Chicken breast stuffed with spinach, ricotta, and sun-dried tomatoes, served with garlic mashed potatoes.",
+      "image": "./image/maincourse/stuffedchicken.jpg",
+      "price": "1900"
+    },
+    {
+      "name": "Veal Saltimbocca",
+      "description": "Veal cutlets with prosciutto and sage, served with roasted vegetables.",
+      "image": "./image/maincourse/veal.jpg",
+      "price": "2600"
+    },
+    {
+      "name": "Seared Scallops",
+      "description": "Delicate scallops seared and served with lemon beurre blanc.",
+      "image": "./image/maincourse/searedscalop.jpg",
+      "price": "2700"
+    },
+    {
+      "name": "Beef Wellington",
+      "description": "Tender beef fillet wrapped in puff pastry with mushrooms and foie gras.",
+      "image": "./image/maincourse/Beefwellington.webp",
+      "price": "3800"
+    },
+    {
+      "name": "Baked Ziti",
+      "description": "Pasta baked with marinara sauce, mozzarella, and ricotta cheese.",
+      "image": "./image/maincourse/bakeziti.jpg",
+      "price": "1500"
+    },
+    {
+      "name": "Lamb Shank",
+      "description": "Slow-cooked lamb shank served with root vegetables and rosemary sauce.",
+      "image": "./image/maincourse/lambshark.jpg",
+      "price": "2800"
+    },
+    {
+      "name": "Shrimp Scampi",
+      "description": "Shrimp sautéed in garlic butter sauce, served over linguine.",
+      "image": "./image/maincourse/shrimpscampi.jpg",
+      "price": "2100"
+    },
+    {
+      "name": "Pork Belly",
+      "description": "Slow-roasted pork belly with a crispy crackling, served with apple puree.",
+      "image": "./image/maincourse/porkbelly.jpg",
+      "price": "2200"
+    },
+    {
+        "name": "Truffle Soup",
+        "description" : "Truffle soup is a rich, aromatic dish made with truffles, cream, and savory broth. It offers a luxurious, earthy flavor, often garnished with fresh truffles or croutons",
+        "image" : "./image/maincourse/trufflesoup.webp",
+        "price":"1150"
+    }
+]

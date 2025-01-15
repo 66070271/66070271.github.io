@@ -1,0 +1,146 @@
+[
+    {
+        "name": "Chocolate Lava Cake",
+        "description": "Warm chocolate cake with a gooey center, served with vanilla ice cream.",
+        "image": "./image/desserts/chocolate_lava_cake.jpg",
+        "price": "280"
+    },
+    {
+        "name": "Tiramisu",
+        "description": "Classic Italian dessert with layers of mascarpone and coffee-soaked ladyfingers.",
+        "image": "./image/desserts/tiramisu.jpg",
+        "price": "300"
+    },
+    {
+        "name": "Crème Brûlée",
+        "description": "Vanilla custard topped with a crispy caramelized sugar crust.",
+        "image": "./image/desserts/creme_brulee.jpg",
+        "price": "260"
+    },
+    {
+        "name": "Mango Sticky Rice Mille-Feuille",
+        "description": "Fusion dessert combining Thai mango sticky rice and French pastry.",
+        "image": "./image/desserts/mango_sticky_rice.jpg",
+        "price": "320"
+    },
+    {
+        "name": "Lychee Rose Jelly",
+        "description": "Light and refreshing jelly infused with lychee and rose flavors.",
+        "image": "./image/desserts/lychee_rose_jelly.webp",
+        "price": "240"
+    },
+    {
+        "name": "Honeycomb Parfait",
+        "description": "Creamy honey parfait served with homemade honeycomb.",
+        "image": "./image/desserts/honeycomb_parfait.jpg",
+        "price": "280"
+    },
+    {
+        "name": "Raspberry Cheesecake",
+        "description": "Rich cheesecake topped with raspberry sauce and fresh berries.",
+        "image": "./image/desserts/raspberry_cheesecake.jpg",
+        "price": "300"
+    },
+    {
+        "name": "Lemon Tart",
+        "description": "Tangy lemon custard in a buttery tart shell.",
+        "image": "./image/desserts/lemon_tart.jpg",
+        "price": "260"
+    },
+    {
+        "name": "Matcha Swiss Roll",
+        "description": "Fluffy matcha sponge cake rolled with sweet cream filling.",
+        "image": "./image/desserts/matcha_swiss_roll.jpg",
+        "price": "220"
+    },
+    {
+        "name": "Salted Caramel Brownie",
+        "description": "Decadent chocolate brownie topped with salted caramel.",
+        "image": "./image/desserts/salted_caramel_brownie.jpg",
+        "price": "240"
+    },
+    {
+        "name": "Pavlova",
+        "description": "Crispy meringue topped with fresh cream and seasonal fruits.",
+        "image": "./image/desserts/pavlova.jpg",
+        "price": "320"
+    },
+    {
+        "name": "Banoffee Pie",
+        "description": "Layered dessert with bananas, caramel, and whipped cream.",
+        "image": "./image/desserts/banoffee_pie.jpg",
+        "price": "280"
+    },
+    {
+        "name": "Pistachio Baklava",
+        "description": "Flaky pastry layered with pistachios and honey syrup.",
+        "image": "./image/desserts/pistachio_baklava.jpg",
+        "price": "260"
+    },
+    {
+        "name": "Sticky Toffee Pudding",
+        "description": "Warm date cake soaked in toffee sauce, served with vanilla ice cream.",
+        "image": "./image/desserts/sticky_toffee_pudding.jpg",
+        "price": "300"
+    },
+    {
+        "name": "Chocolate Mousse",
+        "description": "Rich chocolate mousse topped with whipped cream and chocolate shavings.",
+        "image": "./image/desserts/chocolate_mousse.jpg",
+        "price": "250"
+    },
+    {
+        "name": "Coconut Panna Cotta",
+        "description": "Creamy coconut panna cotta topped with tropical fruits.",
+        "image": "./image/desserts/coconut_panna_cotta.jpg",
+        "price": "270"
+    },
+    {
+        "name": "Apple Crumble",
+        "description": "Baked apples with a crunchy crumble topping, served with vanilla custard.",
+        "image": "./image/desserts/apple_crumble.jpeg",
+        "price": "220"
+    },
+    {
+        "name": "Crepes Suzette",
+        "description": "Thin crepes served with orange liqueur sauce and flambéed.",
+        "image": "./image/desserts/crepes_suzette.jpg",
+        "price": "320"
+    },
+    {
+        "name": "Macarons",
+        "description": "Assorted French macarons with a variety of flavors.",
+        "image": "./image/desserts/macarons.jpg",
+        "price": "200"
+    },
+    {
+        "name": "Peach Cobbler",
+        "description": "Warm peach cobbler served with a scoop of vanilla ice cream.",
+        "image": "./image/desserts/peach_cobbler.jpg",
+        "price": "250"
+    },
+    {
+        "name": "Black Sesame Ice Cream",
+        "description": "Rich and creamy black sesame flavored ice cream.",
+        "image": "./image/desserts/black_sesame_ice_cream.jpg",
+        "price": "150"
+    },
+    {
+        "name": "Yuzu Sorbet",
+        "description": "Refreshing sorbet infused with the tangy taste of yuzu.",
+        "image": "./image/desserts/yuzu_sorbet.jpg",
+        "price": "180"
+    },
+    {
+        "name": "Mocha Éclair",
+        "description": "Chocolate and coffee-flavored éclair with a creamy filling.",
+        "image": "./image/desserts/mocha_eclair.jpg",
+        "price": "240"
+    },
+    {
+        "name": "Carrot Cake",
+        "description": "Moist carrot cake topped with cream cheese frosting.",
+        "image": "./image/desserts/carrot_cake.jpg",
+        "price": 260
+    }
+]
